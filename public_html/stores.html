@@ -1,0 +1,93 @@
+<!--Created by Josh Dietrich-->
+
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+<meta charset="utf-8">
+
+<title>Game Space</title>
+<link rel='icon' href='img/icon.png'/>
+</head>
+
+<body onclick="myOtherFunction()">
+
+	<header>
+		<h1>Game Space: The Space for Gamers</h1>
+		<img src="img/icon.png" alt="A world without Game Space is no world at all."/>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href='index.html'>Home</a></li>
+			<li><a href='about.html'>About Us</a></li>
+			<li><a href='stores.html'>Where Are We?</a></li>
+			<li><a href='review.html'>Game Reviews</a></li>
+			<li><a href='order.html'>Order Now!</a></li>
+			<li><a href='news.html'>Company News</a></li>
+		</ul>
+	</nav>
+
+	<section>
+		<div>
+			<h1>Where are we</h1>
+
+			<table>
+				<thead>
+					<tr>
+						<th>State</th>
+						<th>Cities</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Texas</td>
+						<td>Houston, San Antonio, Austin, Dallas, Arlington</td>
+					</tr>
+					<tr>
+						<td>Iowa</td>
+						<td>Des Moines, Ames, Cedar Rapids, Iowa City, Davenport, Mason City</td>
+					</tr>
+					<tr>
+						<td>North Carolina</td>
+						<td>Raleigh, Charlotte, Asheville</td>
+					</tr>
+					<tr>
+						<td>Minnesota</td>
+						<td>St. Paul, Minneapolis, St. Cloud, Duluth</td>
+					</tr>
+					<tr>
+						<td>Illinois</td>
+						<td>Springfield, Chicago, Naperville, Rock Island</td>
+					</tr>
+					<tr>
+						<td>Alaska</td>
+						<td>Anchorage, Juneau</td>
+				</tbody>
+			</table>
+
+			<p>Want to open up a store? Contact us <a href='mailto:alskdjflajsd@gmail.com?Subject=Hello'>here</a>.
+		</div>
+	</section>
+
+	<footer>
+		<div style='text-align: center; padding-top: 50px'>
+			&copy; Josh Dietrich and Sam Law 2017
+		</div>
+	</footer>
+
+
+	<script>
+		function myOtherFunction() {
+			document.getElementById('body').style.color = '#' + componentToHex(Math.floor(Math.random() * 256)) + componentToHex(Math.floor(Math.random() * 256)) + componentToHex(Math.floor(Math.random() * 256));
+			document.getElementById('body').style.backgroundColor = '#' + componentToHex(Math.floor(Math.random() * 256)) + componentToHex(Math.floor(Math.random() * 256)) + componentToHex(Math.floor(Math.random() * 256));
+		}
+
+		function componentToHex(c) {
+			var hex = c.toString(16);
+			return hex.length == 1 ? "0" + hex : hex;
+		}
+	</script>
+</body>
+
+</html>
