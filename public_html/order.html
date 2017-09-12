@@ -1,0 +1,80 @@
+<!--Created by Sam Law-->
+
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+<meta charset="utf-8">
+
+<title>Game Space!</title>
+<link rel='icon' href='img/icon.png'/>
+</head>
+
+<body>
+
+	<header>
+		<h1>Game Space: The Space for Gamers</h1>
+		<img src="img/icon.png" alt="A world without Game Space is no world at all."/>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href='index.html'>Home</a></li>
+			<li><a href='about.html'>About Us</a></li>
+			<li><a href='stores.html'>Where Are We?</a></li>
+			<li><a href='review.html'>Game Reviews</a></li>
+			<li><a href='order.html'>Order Now!</a></li>
+			<li><a href='news.html'>Company News</a></li>
+		</ul>
+	</nav>
+
+	<section>
+		<h1>Order Form</h1>
+		<h4>Name of game: 
+			<select>
+				<option>Overview</option>
+				<option>Legend of Link</option>
+				<option>Pac-Guy</option>
+				<option>Josh Dietrich's Tax Simulator</option>
+			</select>
+		</h4>
+		<h4>Number of copies: 
+			<select id="selectCopies" onchange="checkCustom()">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+				<option>7</option>
+				<option>8</option>
+				<option>9</option>
+				<option>10</option>
+				<option value='custom'>Custom</option>
+			</select>
+		</h4>
+		<h4>Email (We will email you with confirmation of order): <input type="text"/></h4>
+		<button>Submit Order</button>
+	</section>
+
+	<footer>
+		<div style='text-align: center; padding-top: 50px'>
+			&copy; Josh Dietrich and Sam Law 2017
+		</div>
+	</footer>
+
+	<script>
+		function checkCustom() {
+			var select = document.getElementById("selectCopies");
+			var selectedValue = select.options[select.selectedIndex].value;
+
+			if(selectedValue == "custom") {
+				var numCopies = prompt("How many copies would you like to order?");
+				select.options[select.selectedIndex].text = "Custom: " + numCopies;
+			}
+		}
+	</script>
+
+</body>
+
+</html>
