@@ -10,7 +10,7 @@
 <link rel='icon' href='img/icon.png'/>
 </head>
 
-<body onclick="myOtherFunction()">
+<body>
 
 	<header>
 		<h1>Game Space: The Space for Gamers</h1>
@@ -75,19 +75,6 @@
 			&copy; Josh Dietrich and Sam Law 2017
 		</div>
 	</footer>
-
-
-	<script>
-		function myOtherFunction() {
-			document.getElementById('body').style.color = '#' + componentToHex(Math.floor(Math.random() * 256)) + componentToHex(Math.floor(Math.random() * 256)) + componentToHex(Math.floor(Math.random() * 256));
-			document.getElementById('body').style.backgroundColor = '#' + componentToHex(Math.floor(Math.random() * 256)) + componentToHex(Math.floor(Math.random() * 256)) + componentToHex(Math.floor(Math.random() * 256));
-		}
-
-		function componentToHex(c) {
-			var hex = c.toString(16);
-			return hex.length == 1 ? "0" + hex : hex;
-		}
-	</script>
 </body>
 
 </html>
