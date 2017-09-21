@@ -1,0 +1,32 @@
+	<style> 
+		body {
+			background-color: #D9DCCF;
+		}
+
+		header {
+			background-color: #D9DCCF
+		}
+
+		section {
+			max-width: 900px;
+		}
+
+		h3 {
+			font-size: 25px;
+			font-family: arial, serif;
+			color: #20B0B9;
+		}
+
+		p {
+			border-style: solid;
+			border-width: 4px;
+			border-radius: 4px;
+			margin: 5px;
+			padding: 5px
+		}
+
+		nav ul {
+			background-color: #182127;
+
+		}
+		</style>
