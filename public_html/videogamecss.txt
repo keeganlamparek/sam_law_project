@@ -9,7 +9,9 @@ nav ul {
   font-family: arial,sans-serif;
 }
 nav li {
-  float: left;
+position: absolute;
+top: 170px;
+right: 150px;
 }
 nav li a {
   display: block;
@@ -33,9 +35,21 @@ text-align: center;
 color: white;
 text-decoration: underline;
 }
+h4 {
+color: white;
+}
 p {
 text-align: center;
 color: white;
 text-outline: 3px 3px #ff0000;
 }
-
+th, td {
+border: 2px solid yellow;
+color: white;
+text-align: center;
+padding: 10px;
+}
+th {
+background-color: blue;
+}
+table {
