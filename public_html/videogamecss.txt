@@ -1,0 +1,64 @@
+/* --- Nav Bar --- */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  font-family: arial,sans-serif;
+}
+nav li {
+float: left;
+}
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border: 2px solid yellow
+}
+nav li a:hover {
+  background-color: blue;
+}
+
+
+/* --- Body --- */
+body {
+background-color: black;
+}
+h1, h2, h3 {
+text-align: left;
+color: yellow;
+}
+h3 {
+text-decoration: underline;
+}
+h4 {
+color: white;
+}
+p {
+text-align: center;
+color: white;
+text-outline: 3px 3px #ff0000;
+width: 500px;
+}
+th, td {
+border: 2px solid yellow;
+color: white;
+text-align: center;
+padding: 10px;
+}
+th {
+background-color: blue;
+text-decoration: underline;
+}
+
+#img/icon.png {
+float: right;
+}
+
+footer {
+color: white;
+text-align: center;
+padding: 10px;
