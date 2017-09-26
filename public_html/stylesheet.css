@@ -3,21 +3,101 @@ body {
 }
 
 section {
-	max-width: 900px;
+	max-width: 1600px;
 	border-style: solid;
 	border-width: 4px;
 	border-radius: 4px;
 	margin: 5px;
 	padding: 5px;
+	background-color: #ffffff;
+}
+
+h1 {
+	font-size: 25px;
+	font-family: arial, serif;
+	color: #998877;
+	padding: 2px;
+}
+
+h2 {
+	font-size: 19px;
+	font-family: arial,sans-serif;
+	color: #20B0B9
 }
 
 h3 {
-	font-size: 25px;
-	font-family: arial, serif;
-	color: #20B0B9;
+	font-size: 18px;
+	font-family: arial,sans-serif;
+	color: #182127;
+}
+
+h4 {
+	font-size: 16px;
+	font-family: arial,sans-serif;
+	color: #182127;
+}
+
+#summary {
+	font-size: 13px;
+}
+
+.even {
+	font-size: 15px;
+	font-family: arial,sans-serif;
+	color: #182127;
 }
 
 p {
-	font-family: arial;
+	font-family: arial,sans-serif;
 	font-size: 16px;
+}
+
+table {
+	border-style: solid;
+	border-color: #67C0B5;
+	border-width: 2px;
+	border-radius: 2px;
+	background-color: #D9DCCF;
+	font-family: arial,sans-serif;
+}
+
+thead {
+	font-size: 20px;
+}
+
+button:hover {
+	background-color: #998877;
+}
+
+footer {
+	font-family: arial,sans-serif;
+	font-size: 14px;
+}
+
+/*--- Nav Bar ---*/
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #182127;
+	font-family: arial,sans-serif;
+	color: #D9DCCF;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: block;
+	color: #D9DCCF;
+	text-align: center;
+	padding: 10px 16px;
+	text-decoration: none;
+}
+
+/*--- Change the link color on hover ---*/
+nav li a:hover {
+	background-color: #998877;
 }
