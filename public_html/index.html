@@ -4,29 +4,74 @@
 <html lang='en'>
 
 <head>
-<meta charset="utf-8">
+	<meta charset="utf-8">
+	<title>Game Space!</title>
+	<link rel='icon' href='img/icon.png'/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Game Space!</title>
-<link rel='icon' href='img/icon.png'/>
+   	 <!-- Main CSS styles for Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+   	 <!-- Optional theme add-on -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+    	<!-- If you don't like how bootstrap looks, go here and see other themes
+        	 that are available:
+        	 https://bootswatch.com/
+
+        	 You can replace the 'optional theme' with links from the page below
+        	 to get that theme:
+        	 https://www.bootstrapcdn.com/bootswatch/
+		-->
+
+    	<!-- Our custom stylesheet that WE write. We need this to not have our
+        	 text appear under the nav bar. -->
+	<link rel="stylesheet" href="custom.css">
 </head>
 
 <body>
+  <!-- Navigation Bar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
 
-	<header>
-		<h1>Game Space: The Space for Gamers</h1>
-		<img src="img/icon.png" alt="A world without Game Space is no world at all."/>
-	</header>
+            <!-- Three line "hamburger" icon for the collapsed navigation -->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
 
-	<nav>
-		<ul>
+          <!-- Title on nav bar -->
+          <a class="navbar-brand" href="#">Bootstrap</a>
+        </div>
+
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
 			<li><a href='index.html'>Home</a></li>
 			<li><a href='about.html'>About Us</a></li>
 			<li><a href='stores.html'>Where Are We?</a></li>
 			<li><a href='review.html'>Game Reviews</a></li>
 			<li><a href='order.html'>Order Now!</a></li>
 			<li><a href='news.html'>Company News</a></li>
-		</ul>
-	</nav>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main content -->
+    <div class="container">
+      <!-- This container moves below the menu bar -->
+      <div class="below_menu_container">
+        <h1>Example Bootstrap Document</h1>
+        <p>This is a test of Bootstrap.</p>
+      </div>
+    </div>
+	<header>
+		<h1>Game Space: The Space for Gamers</h1>
+		<img src="img/icon.png" alt="A world without Game Space is no world at all."/>
+	</header>
 
 	<section>
 		<div>
