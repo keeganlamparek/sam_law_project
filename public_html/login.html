@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
    	 <!-- Optional theme add-on -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="https://bootswatch.com/superhero/bootstrap.min.css">
 
     	<!-- If you don't like how bootstrap looks, go here and see other themes
         	 that are available:
@@ -53,31 +53,45 @@
 			<li><a href='review.html'>Game Reviews</a></li>
 			<li><a href='order.html'>Order Now!</a></li>
 			<li><a href='news.html'>Company News</a></li>
+      <li><a href='login.html'>Log In</a></li>
+      <li><a href='signup.html'>Sign Up</a></li>
           </ul>
         </div>
       </div>
     </nav>
     
-     <!-- Main content -->
-    <div class="container">
-      <!-- This container moves below the menu bar -->
-      <div class="below_menu_container">
-        <h1>Example Bootstrap Document</h1>
-        <p>This is a test of Bootstrap.</p>
+      <div class="jumbotron">
+        <div class="container">
+          <h1 class="display-3">Log in to Game Space!</h1>
+        </div>
       </div>
-    </div>
-	<header>
 
-	</header>
-
-	<section>
-		
-	</section>
+<div class="container">
+<div class="col-xs-12 col-md-6">
+  <fieldset>
+    <h1>User Information</h1>
+      <h4>
+        <label for="username">Username:</label> 
+        <input type="text" id="username" placeholder="Username"/>
+        </h4>
+      <h4>
+        <label for="password">Password:</label> 
+        <input type="text" id="password" placeholder="Password" />
+      </h4>
+    <button type="button" class="btn btn-primary btn-sm">Log In</button>
+  </fieldset>
+</div>
 
 	<footer>
-
+    <div style='text-align: center; padding-top: 50px'>
+      &copy; Josh Dietrich and Sam Law 2017
+    </div>
 	</footer>
 
-</body>
 
+    <!-- Scripts required to make Bootstrap work better. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </div>
+  </body>
 </html>
