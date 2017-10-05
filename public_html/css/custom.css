@@ -3,7 +3,19 @@
   padding-top: 50px;
 }
 
-img {
+.logo {
 	display: block;
 	margin: auto;
+}
+
+img {
+	display: block;
+	margin: left;
+}
+
+h2 {
+	display: block;
+	text-align: center;
+	padding: 15px;
+	color: orange;
 }
