@@ -3,19 +3,21 @@
   padding-top: 50px;
 }
 
-.logo {
+img {
 	display: block;
 	margin: auto;
 }
 
-img {
-	display: block;
-	margin: left;
+.table_header_row {
+	font-size: 22px;
 }
 
-h2 {
-	display: block;
-	text-align: center;
-	padding: 15px;
-	color: orange;
+th {
+	font-size: 15px;
+	font-family: arial,sans-serif;
+}
+
+td {
+	font-size: 15px;
+	font-family: arial,sans-serif;
 }
