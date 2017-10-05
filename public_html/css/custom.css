@@ -7,3 +7,24 @@ img {
 	display: block;
 	margin: auto;
 }
+
+h2 {
+	display: block;
+	text-align: center;
+	padding: 15px;
+	color: orange;
+}
+
+.table_header_row {
+	font-size: 22px;
+}
+
+th {
+	font-size: 15px;
+	font-family: arial,sans-serif;
+}
+
+td {
+	font-size: 15px;
+	font-family: arial,sans-serif;
+}
