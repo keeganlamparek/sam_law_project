@@ -84,11 +84,7 @@
 		</div>
 	</section>
 
-	<footer>
-		<div style='text-align: center; padding-top: 50px'>
-			&copy; Josh Dietrich and Sam Law 2017
-		</div>
-	</footer>
+	<?php include "../resources/footer.php"; ?>
 
     <!-- Scripts required to make Bootstrap work better. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
